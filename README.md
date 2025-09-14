@@ -31,7 +31,8 @@ cd bots/echo_bot && python -m app
 ## Логи
 
 - Консоль — цветной вывод (если установлен `colorlog`).
-- Файл с ротацией по дням — `logs/bot.log` (по умолчанию), хранится `LOG_BACKUP_DAYS` дней.
+- Файл с ротацией по дням — `logs/bot.log` (по умолчанию),
+  хранится `LOG_BACKUP_DAYS` дней.
 
 Переменные окружения:
 
@@ -71,14 +72,17 @@ pip install colorlog
 **Settings → Version Control → Commit → Before Commit**:
 
 - включи **Run Git Hooks** (если доступно), либо добавь External Tool на:
+
   ```
   pre-commit run --files $ChangedFiles$
   ```
+
 - при желании включи **Run tests** и **Run inspection**.
 
 ## Линтинг, форматирование и тесты
 
-В проекте настроены **Ruff** (линтер) и **Black** (форматтер), а также pre-commit хуки.
+В проекте настроены **Ruff** (линтер) и
+**Black** (форматтер), а также pre-commit хуки.
 
 ### Установка зависимостей и активация хуков
 
@@ -118,7 +122,7 @@ make ci
 
 ## Структура репозитория
 
-```
+```ignorelang
 tg-bots-portfolio-starter/
   bots/
     echo_bot/
