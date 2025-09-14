@@ -68,7 +68,7 @@ jobs:
             mypy-${{ runner.os }}-
 
       - name: Mypy (type check)
-        run: mypy --cache-dir=.mypy_cache .
+        run: mypy --config-file=pyproject.toml scripts libs bots
 
       - name: Pre-commit (PR only)
         if: github.event_name == 'pull_request'
