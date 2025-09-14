@@ -73,7 +73,7 @@ pip install colorlog
 
 - включи **Run Git Hooks** (если доступно), либо добавь External Tool на:
 
-  ```
+  ```bash
   pre-commit run --files $ChangedFiles$
   ```
 
