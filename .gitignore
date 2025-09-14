@@ -1,0 +1,39 @@
+# Виртуальное окружение
+.venv/
+.i18n_cache
+
+# Python кеши
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+.continue/
+
+# Логи
+logs/
+*.log
+
+# Файлы окружения
+.env
+*.env
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Тестовые артефакты
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# Графики/временные медиа
+*.png
+*.jpg
+*.jpeg
+*.gif

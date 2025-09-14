@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: questionnaire_bot 0.1\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "cancel.done"
+msgstr "Cancelled."
+
+msgid "form.start"
+msgstr "Hi! Let's start the questionnaire."
+
+msgid "form.ask.name"
+msgstr "What's your name?"
+
+msgid "form.ask.age"
+msgstr "How old are you?"
+
+msgid "form.validation.age"
+msgstr "Please enter a number from 1 to 120."
+
+msgid "form.ask.city"
+msgstr "Which city are you from?"
+
+msgid "form.city.unknown"
+msgstr "not provided"
+
+msgid "hint.title"
+msgstr "Hint"
+
+msgid "hint.name"
+msgstr "Enter your name"
+
+msgid "hint.age"
+msgstr "Enter your age. Number from 1 to 120"
+
+msgid "hint.city"
+msgstr "Enter your city of residence"
+
+msgid "form.summary"
+msgstr "Your name is {name}, you are {age}, city: {city}."

@@ -1,0 +1,8 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: echo_bot 0.1\n"
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "label.echo.greeting"
+msgstr "Привет! Я echo-бот. Пришли что-нибудь — повторю."

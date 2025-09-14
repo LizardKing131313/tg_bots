@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: common\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "action.cancel"
+msgstr "❌ Cancel"
+
+msgid "action.back"
+msgstr "↩ Back"
+
+msgid "action.skip"
+msgstr "⏭ Skip"
+
+msgid "action.restart"
+msgstr "🔁 Restart"
+
+msgid "action.hint.show"
+msgstr "💡"
+
+msgid "action.hint.hide"
+msgstr "🙈"
+
+msgid "input.placeholder"
+msgstr "Use buttons or type an answer…"
+
+msgid "user.fallback"
+msgstr "Something went wrong. Try again later 🫠"
+
+msgid "user.limit"
+msgstr "To many request 🙂 Wait a bit"
