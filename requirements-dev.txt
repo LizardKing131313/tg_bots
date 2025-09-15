@@ -42,10 +42,8 @@ charset-normalizer==3.4.3
     # via requests
 click==8.2.1
     # via black
-colorama==0.4.6
-    # via
-    #   click
-    #   pytest
+colorlog==6.9.0
+    # via tg-bots (pyproject.toml)
 coverage[toml]==7.10.6
     # via
     #   pytest-cov
@@ -189,7 +187,7 @@ toml==0.10.2
     # via pip-audit
 types-polib==1.2.0.20250401
     # via tg-bots (pyproject.toml)
-types-pyyaml==6.0.12.20250822
+types-pyyaml==6.0.12.20250915
     # via tg-bots (pyproject.toml)
 types-requests==2.32.4.20250913
     # via tg-bots (pyproject.toml)
