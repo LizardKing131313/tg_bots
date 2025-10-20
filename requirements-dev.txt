@@ -18,11 +18,11 @@ annotated-types==0.7.0
     # via pydantic
 anybadge==1.16.0
     # via tg-bots (pyproject.toml)
-anyio==4.10.0
+anyio==4.11.0
     # via httpx
-attrs==25.3.0
+attrs==25.4.0
     # via aiohttp
-black==25.1.0
+black==25.9.0
     # via tg-bots (pyproject.toml)
 boolean-py==5.0
     # via license-expression
@@ -30,7 +30,7 @@ cachecontrol[filecache]==0.14.3
     # via
     #   cachecontrol
     #   pip-audit
-certifi==2025.8.3
+certifi==2025.10.5
     # via
     #   aiogram
     #   httpcore
@@ -38,15 +38,13 @@ certifi==2025.8.3
     #   requests
 cfgv==3.4.0
     # via pre-commit
-charset-normalizer==3.4.3
+charset-normalizer==3.4.4
     # via requests
-click==8.2.1
+click==8.3.0
     # via black
-colorama==0.4.6
-    # via
-    #   click
-    #   pytest
-coverage[toml]==7.10.6
+colorlog==6.10.1
+    # via tg-bots (pyproject.toml)
+coverage[toml]==7.11.0
     # via
     #   pytest-cov
     #   tg-bots (pyproject.toml)
@@ -56,11 +54,11 @@ defusedxml==0.7.1
     # via py-serializable
 distlib==0.4.0
     # via virtualenv
-filelock==3.19.1
+filelock==3.20.0
     # via
     #   cachecontrol
     #   virtualenv
-frozenlist==1.7.0
+frozenlist==1.8.0
     # via
     #   aiohttp
     #   aiosignal
@@ -70,15 +68,15 @@ httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via tg-bots (pyproject.toml)
-identify==2.6.14
+identify==2.6.15
     # via pre-commit
-idna==3.10
+idna==3.11
     # via
     #   anyio
     #   httpx
     #   requests
     #   yarl
-iniconfig==2.1.0
+iniconfig==2.3.0
     # via pytest
 license-expression==30.4.4
     # via cyclonedx-python-lib
@@ -88,13 +86,13 @@ markdown-it-py==4.0.0
     # via rich
 mdurl==0.1.2
     # via markdown-it-py
-msgpack==1.1.1
+msgpack==1.1.2
     # via cachecontrol
-multidict==6.6.4
+multidict==6.7.0
     # via
     #   aiohttp
     #   yarl
-mypy==1.18.1
+mypy==1.18.2
     # via tg-bots (pyproject.toml)
 mypy-extensions==1.1.0
     # via
@@ -121,7 +119,7 @@ pip-audit==2.9.0
     # via tg-bots (pyproject.toml)
 pip-requirements-parser==32.0.1
     # via pip-audit
-platformdirs==4.4.0
+platformdirs==4.5.0
     # via
     #   black
     #   pip-audit
@@ -134,26 +132,26 @@ polib==1.2.0
     # via tg-bots (pyproject.toml)
 pre-commit==4.3.0
     # via tg-bots (pyproject.toml)
-propcache==0.3.2
+propcache==0.4.1
     # via
     #   aiohttp
     #   yarl
 py-serializable==2.1.0
     # via cyclonedx-python-lib
-pydantic==2.11.9
+pydantic==2.11.10
     # via
     #   aiogram
     #   pydantic-settings
     #   tg-bots (pyproject.toml)
 pydantic-core==2.33.2
     # via pydantic
-pydantic-settings==2.10.1
+pydantic-settings==2.11.0
     # via tg-bots (pyproject.toml)
 pygments==2.19.2
     # via
     #   pytest
     #   rich
-pyparsing==3.2.4
+pyparsing==3.2.5
     # via pip-requirements-parser
 pytest==8.4.2
     # via
@@ -171,15 +169,17 @@ python-dotenv==1.1.1
     # via
     #   pydantic-settings
     #   tg-bots (pyproject.toml)
-pyyaml==6.0.2
+pytokens==0.2.0
+    # via black
+pyyaml==6.0.3
     # via pre-commit
 requests==2.32.5
     # via
     #   cachecontrol
     #   pip-audit
-rich==14.1.0
+rich==14.2.0
     # via pip-audit
-ruff==0.13.0
+ruff==0.14.1
     # via tg-bots (pyproject.toml)
 sniffio==1.3.1
     # via anyio
@@ -189,7 +189,7 @@ toml==0.10.2
     # via pip-audit
 types-polib==1.2.0.20250401
     # via tg-bots (pyproject.toml)
-types-pyyaml==6.0.12.20250822
+types-pyyaml==6.0.12.20250915
     # via tg-bots (pyproject.toml)
 types-requests==2.32.4.20250913
     # via tg-bots (pyproject.toml)
@@ -203,7 +203,7 @@ typing-extensions==4.15.0
     #   pydantic-core
     #   pytest-asyncio
     #   typing-inspection
-typing-inspection==0.4.1
+typing-inspection==0.4.2
     # via
     #   pydantic
     #   pydantic-settings
@@ -211,9 +211,9 @@ urllib3==2.5.0
     # via
     #   requests
     #   types-requests
-virtualenv==20.34.0
+virtualenv==20.35.3
     # via pre-commit
-yarl==1.20.1
+yarl==1.22.0
     # via aiohttp
 
 # The following packages are considered to be unsafe in a requirements file:
